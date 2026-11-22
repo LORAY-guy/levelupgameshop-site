@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="META_TITLE">Level Up: Game Shop ~ A first-person game shop tycoon</title>
+  <meta name="description" data-i18n-attr="content: META_DESCRIPTION"
+    content="Open a one-room game shop and grow it into a four-floor store. Buy licenses from the 8-bit era to VR, stock the shelves, haggle over trade-ins, hire a crew and open an arcade. Coming soon to Early Access on Steam.">
+  <meta name="theme-color" content="#2c2457">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="canonical" href="https://levelupgameshop.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://levelupgameshop.com/">
+  <meta property="og:title" content="Level Up: Game Shop">
+  <meta property="og:description"
+    content="A first-person game shop tycoon. Start with one tiny room and grow it into the biggest game shop in town.">
+  <meta property="og:image" content="https://levelupgameshop.com/img/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <script src="js/i18n.js"></script>
+  <link rel="preload" href="fonts/super-mellow.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/site.js" defer></script>
+</head>
+
+<body>
+  <a class="skip" href="#main" data-i18n="SKIP">Skip to content</a>
+
+  <header class="hero" id="top">
+    <img class="hero-plate" src="img/hero-1280.webp" srcset="img/hero-1280.webp 1280w, img/hero-2560.webp 2560w"
+      sizes="100vw" alt="" fetchpriority="high">
+    <nav class="nav" aria-label="Main" data-i18n-attr="aria-label: NAV_LABEL">
+      <ul>
+        <li class="nav-trailer"><a href="#trailer" data-i18n="NAV_TRAILER">Trailer</a></li>
+        <li><a href="#features" data-i18n="NAV_FEATURES">Features</a></li>
+        <li><a href="#get" data-i18n="NAV_GET">Get the game</a></li>
+        <li><a href="https://discord.gg/MetKdqtyPT">Discord</a></li>
+      </ul>
+    </nav>
+    <div class="pitch">
+      <h1 class="logo"><img src="img/logo.svg" alt="Level Up: Game Shop" width="1266" height="637"></h1>
+      <p class="tagline" data-i18n="HERO_TAGLINE">A first-person game shop tycoon</p>
+      <div class="actions">
+        <a class="button button-gold" href="https://store.steampowered.com/app/STEAM_APP_ID/" data-i18n="BTN_WISHLIST">Wishlist on Steam</a>
+        <a class="button button-paper" href="#trailer" data-play-trailer data-i18n="BTN_TRAILER">Watch the trailer</a>
+      </div>
+      <p class="status" data-i18n="HERO_STATUS">Early Access for Windows, macOS and Linux available NOW</p>
+    </div>
+    <div class="crew" aria-hidden="true">
+      <img class="crew-restocker" src="img/restocker.webp" alt="" width="348" height="900">
+      <img class="crew-cashier" src="img/cashier.webp" alt="" width="259" height="900">
+      <img class="crew-customer" src="img/sports_guy.webp" alt="" width="696" height="1842">
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section trailer" id="trailer" aria-labelledby="trailer-title">
+      <div class="card">
+        <h2 class="band" id="trailer-title" data-i18n="TRAILER_TITLE">Trailer</h2>
+        <video class="trailer-video" controls preload="none" playsinline poster="img/trailer-poster.webp">
+          <source src="video/trailer-1080p.mp4" type="video/mp4" media="(min-width: 800px)">
+          <source src="video/trailer-720p.mp4" type="video/mp4">
+        </video>
+      </div>
+      <p class="intro" data-i18n="INTRO"><strong>Level Up: Game Shop</strong> is a first-person tycoon about running a video game store.
+        You start with one tiny room, a few shelves and a till. Fill it with parody consoles and games from every era,
+        and turn it into the biggest game shop in town.</p>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <h2 class="title" id="features-title" data-i18n="FEATURES_TITLE">From one room to four floors</h2>
+
+      <article class="feature">
+        <figure class="clip">
+          <video muted loop playsinline preload="none" poster="img/run.webp" data-clip>
+            <source src="video/run.mp4" type="video/mp4">
+          </video>
+          <button class="clip-toggle" type="button" data-play="Play" data-pause="Pause"
+            data-i18n-attr="data-play: CLIP_PLAY; data-pause: CLIP_PAUSE">Pause</button>
+        </figure>
+        <div class="feature-text">
+          <h3 data-i18n="RUN_TITLE">Run the shop</h3>
+          <p data-i18n="RUN_TEXT">Buy licenses on the shop computer, pick what goes on every shelf
+            row, set the prices, open the doors and work the till until you can pay someone else to.</p>
+          <ul>
+            <li data-i18n="RUN_1"><strong>Ten eras of gaming</strong>, from 8-bit classics and arcade legends to the disc era, the indie
+              boom and VR, with more than 450 parody games, consoles and accessories.</li>
+            <li data-i18n="RUN_2"><strong>New releases every day.</strong> Each morning brings new licenses, and picking the hits
+              is how you get ahead.</li>
+            <li data-i18n="RUN_3"><strong>Trade-ins at the counter.</strong> Haggle with sellers who can bluff, and keep an eye on your mail
+              for collectors, press and bills. Beware of the possible scams.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature">
+        <figure class="clip">
+          <video muted loop playsinline preload="none" poster="img/grow.webp" data-clip>
+            <source src="video/grow.mp4" type="video/mp4">
+          </video>
+          <button class="clip-toggle" type="button" data-play="Play" data-pause="Pause"
+            data-i18n-attr="data-play: CLIP_PLAY; data-pause: CLIP_PAUSE">Pause</button>
+        </figure>
+        <div class="feature-text">
+          <h3 data-i18n="GROW_TITLE">Grow your empire</h3>
+          <p data-i18n="GROW_TEXT">Happy customers raise your popularity, and popularity brings more people through the door. Save up for the
+            next building upgrade and watch the shop grow from one room to four floors, with stairs, an elevator and the
+            whole street looking in through the glass.</p>
+          <ul>
+            <li data-i18n="GROW_1"><strong>Seven shop sizes</strong> to grow through, each with more room and more to manage.</li>
+            <li data-i18n="GROW_2"><strong>A town that remembers you.</strong> Regulars have names, tastes and budgets. They come back,
+              sell you their old games and post what they think of your shop on social media.</li>
+            <li data-i18n="GROW_3"><strong>Play it your way.</strong> Casual, Boss or Gamer difficulty, or tune every rule yourself. There
+              is no game over: a loan can always get you back on your feet.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature">
+        <figure class="clip">
+          <video muted loop playsinline preload="none" poster="img/crew.webp" data-clip>
+            <source src="video/crew.mp4" type="video/mp4">
+          </video>
+          <button class="clip-toggle" type="button" data-play="Play" data-pause="Pause"
+            data-i18n-attr="data-play: CLIP_PLAY; data-pause: CLIP_PAUSE">Pause</button>
+        </figure>
+        <div class="feature-text">
+          <h3 data-i18n="CREW_TITLE">Hire a crew</h3>
+          <p data-i18n="CREW_TEXT">Cashiers keep the queue moving and restockers keep the shelves full. Every employee has their own stats,
+            learns on the job and levels up.</p>
+          <ul>
+            <li data-i18n="CREW_1"><strong>Pay a bonus</strong> to get through a tough rush.</li>
+            <li data-i18n="CREW_2"><strong>Train an apprentice.</strong> Take a new hire along and let them learn by watching you.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature">
+        <figure class="clip">
+          <video muted loop playsinline preload="none" poster="img/build.webp" data-clip>
+            <source src="video/build.mp4" type="video/mp4">
+          </video>
+          <button class="clip-toggle" type="button" data-play="Play" data-pause="Pause"
+            data-i18n-attr="data-play: CLIP_PLAY; data-pause: CLIP_PAUSE">Pause</button>
+        </figure>
+        <div class="feature-text">
+          <h3 data-i18n="BUILD_TITLE">Build it your way</h3>
+          <p data-i18n="BUILD_TEXT">Pick anything up and move it at any time. The shop is yours, from the sign over the door to the last poster
+            on the wall.</p>
+          <ul>
+            <li data-i18n="BUILD_1"><strong>Over 100 pieces of furniture and decor</strong>: brand shelves, glass counters, display tables,
+              posters and more.</li>
+            <li data-i18n="BUILD_2"><strong>Shape your shelves</strong> as an L, a T, a U, a cross or a four-sided island.</li>
+            <li data-i18n="BUILD_3"><strong>Make it yours</strong> with your shop's name over the door and dozens of wall, floor and ceiling
+              finishes.</li>
+            <li data-i18n="BUILD_4"><strong>Set the mood</strong> with a radio or a set of speakers playing the game's original soundtrack.
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature">
+        <figure class="clip">
+          <video muted loop playsinline preload="none" poster="img/arcade.webp" data-clip>
+            <source src="video/arcade.mp4" type="video/mp4">
+          </video>
+          <button class="clip-toggle" type="button" data-play="Play" data-pause="Pause"
+            data-i18n-attr="data-play: CLIP_PLAY; data-pause: CLIP_PAUSE">Pause</button>
+        </figure>
+        <div class="feature-text">
+          <h3 data-i18n="ARCADE_TITLE">Open an arcade</h3>
+          <p data-i18n="ARCADE_TEXT">Your shop can be a hangout too. Put in arcade cabinets, PC rigs rented by the hour and VR booths, and
+            people will come to play as well as to shop.</p>
+          <ul>
+            <li data-i18n="ARCADE_1"><strong>Sixteen arcade cabinets</strong>, each with its own game running on the screen.</li>
+            <li data-i18n="ARCADE_2"><strong>Tournaments and midnight launches</strong> that pack the shop.</li>
+            <li data-i18n="ARCADE_3"><strong>High scores.</strong> When someone is about to beat the record, the whole floor gathers to
+              watch.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature">
+        <figure class="clip">
+          <video muted loop playsinline preload="none" poster="img/city.webp" data-clip>
+            <source src="video/city.mp4" type="video/mp4">
+          </video>
+          <button class="clip-toggle" type="button" data-play="Play" data-pause="Pause"
+            data-i18n-attr="data-play: CLIP_PLAY; data-pause: CLIP_PAUSE">Pause</button>
+        </figure>
+        <div class="feature-text">
+          <h3 data-i18n="CITY_TITLE">Life in the city</h3>
+          <p data-i18n="CITY_TEXT">When the shop closes, the city keeps going.</p>
+          <ul>
+            <li data-i18n="CITY_1"><strong>Your phone does it all:</strong> a map, your bank, music, a camera, photos, your shop's ratings
+              and the Y feed.</li>
+            <li data-i18n="CITY_2"><strong>Find a place to live.</strong> Start in a small studio and move up. Sleep to skip the night.
+            </li>
+            <li data-i18n="CITY_3"><strong>Dress up</strong> at the boutique, or design your own shirt print.</li>
+            <li data-i18n="CITY_4"><strong>Feeling lucky?</strong> The Lucky Pixel casino opens at night with blackjack, poker and slots.
+            </li>
+            <li data-i18n="CITY_5"><strong>And a few surprises</strong> at the shop across from the boutique.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="section get" id="get" aria-label="Get the game" data-i18n-attr="aria-label: GET_TITLE">
+      <div class="card card-store">
+        <h2 class="band" data-i18n="GET_TITLE">Get the game</h2>
+        <div class="card-body">
+          <ul class="stores">
+            <li class="store">
+              <div class="store-text">
+                <h3>Steam</h3>
+                <p data-i18n="STEAM_PLATFORMS">Windows, macOS and Linux.</p>
+              </div>
+              <a class="button button-gold" href="https://store.steampowered.com/app/STEAM_APP_ID/" data-i18n="BTN_WISHLIST">Wishlist on
+                Steam</a>
+            </li>
+          </ul>
+          <dl class="facts">
+            <div>
+              <dt data-i18n="FACT_LANGUAGES">Languages</dt>
+              <dd data-i18n="FACT_LANGUAGES_VALUE">English, French, German and Spanish</dd>
+            </div>
+            <div>
+              <dt data-i18n="FACT_CONTROLS">Controls</dt>
+              <dd data-i18n="FACT_CONTROLS_VALUE">Keyboard and mouse OR controller</dd>
+            </div>
+            <div>
+              <dt data-i18n="FACT_SPECS">Minimum specs</dt>
+              <dd data-i18n="FACT_SPECS_VALUE">4GB RAM.<br>1GB disk space.<br>A basic graphics card should do the trick.<br>Could potentially run on a toaster.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="band" data-i18n="EA_TITLE">Early Access</h2>
+        <div class="card-body">
+          <p data-i18n="EA_TEXT">The whole journey is playable today. Coming soon will be more content and features developed over time and
+            suggested by the community.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="band" data-i18n="COMMUNITY_TITLE">Community</h2>
+        <div class="card-body">
+          <p data-i18n="COMMUNITY_TEXT">Playtests, news and talks about the game happens on Discord.</p>
+          <a class="button button-chrome" href="https://discord.gg/MetKdqtyPT" data-i18n="BTN_DISCORD">Join the Discord</a>
+        </div>
+      </div>
+
+      <aside class="notice" aria-labelledby="ai-title">
+        <h2 class="notice-title" id="ai-title" data-i18n="AI_TITLE">About the use of generative AI</h2>
+        <p data-i18n="AI_TEXT">Generative AI was used very lightly in Level Up: Game Shop, for a couple of textures, sprites and 3D
+          models. Everything else is human-made. Version 1.0 won't come out until every generated asset has been replaced
+          with human-made work.<br><br>I do not support the irresponsible use of AI in creative projects.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <nav class="languages" aria-label="Language" data-i18n-attr="aria-label: FOOTER_LANGUAGE">
+      <ul>
+        <li><a href="?lang=en" hreflang="en" lang="en" data-language="en">English</a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr" data-language="fr">Français</a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de" data-language="de">Deutsch</a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es" data-language="es">Español</a></li>
+      </ul>
+    </nav>
+    <p data-i18n="FOOTER_LEGAL">Copyright 2026 LORAY. Level Up: Game Shop is a parody: every company, console and game name in it is a parody,
+      and the game is not affiliated with or endorsed by any of the companies it parodies.</p>
+    <p data-i18n="FOOTER_PRIVACY">This site uses no cookies and no analytics.</p>
+  </footer>
+</body>
+
+</html>
